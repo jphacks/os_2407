@@ -53,10 +53,10 @@ https://youtu.be/q0lc5Si2gBY
 * ChatGPT API
 
 #### フレームワーク・ライブラリ・モジュール
-* モバイルアプリ
+* モバイルアプリ (ユーザが操作する部分)
   * Flutter
   * Dart
-* APIサーバ
+* APIサーバ (モバイルアプリと連携．AIでの予定抽出を実行)
   * FastAPI
   * Python
   * Microsoft Azure
