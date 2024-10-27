@@ -158,12 +158,12 @@ AIが自動で写真から予定情報を抽出します．
 ### 事前開発
 
 * モバイルアプリ
-  * [ハッカソン開始時点でのソースコード](https://github.com/NAIST-Eventpix/eventpix_mobile/tree/9f319bb5a4e1fb12119285fec351e1ef84eb9e89) (9f319bb)
+  * ハッカソン開始時点でのソースコード：([9f319bb](https://github.com/NAIST-Eventpix/eventpix_mobile/tree/9f319bb5a4e1fb12119285fec351e1ef84eb9e89))
   * 事前開発内容
     * Flutterの環境構築
     * Top画面（製品説明部の画像1段階目）のUIを作成
 * APIサーバ
-  * [ハッカソン開始時点でのソースコード](https://github.com/NAIST-Eventpix/eventpix_api/tree/b1cd0885b6c8085af683c39ee5c404e43756a11b) (b1cd088)
+  * ハッカソン開始時点でのソースコード：([b1cd088](https://github.com/NAIST-Eventpix/eventpix_api/tree/b1cd0885b6c8085af683c39ee5c404e43756a11b))
   * 事前開発内容
     * APIサーバのインフラ整備
     * 予測部分の最小部分を作成
@@ -190,8 +190,8 @@ AIが自動で写真から予定情報を抽出します．
   * ソースコードのリファクタリング，リント，フォーマット等の性能改善
 
 ### 特にこだわった部分
-* 処理中や処理完了時にはダイアログを表示し，ユーザビリティを意識した実装を行いました
-* カレンダー選択画面ではカレンダーをカテゴリ分けし，カレンダーごとの色情報を表示するなど，ユーザフレンドリなUIの構築を工夫しました
+* 処理中や処理完了時にはダイアログを表示し，ユーザビリティを意識した実装を行いました ([4bedad3](https://github.com/NAIST-Eventpix/eventpix_mobile/commit/4bedad31759f4934343352b15d097839ff09a0f3))([838a4a5](https://github.com/NAIST-Eventpix/eventpix_mobile/commit/838a4a576cb9fc03782afad2b52d9dfa4a30f038))
+* カレンダー選択画面ではカレンダーをカテゴリ分けし，カレンダーごとの色情報を表示するなど，ユーザフレンドリなUIの構築を工夫しました ([be1c7f5](https://github.com/NAIST-Eventpix/eventpix_mobile/commit/be1c7f5fe207de98a5cfd3ffd2765a3fc99581be))
 * アプリアイコンの長押し時に表示されるクイックアクションに「カメラで撮る」という項目を追加し，すぐに撮影画面を起動できるようにしました ([473991a](https://github.com/NAIST-Eventpix/eventpix_mobile/commit/473991af2a2355fe0f5782b792d67b0a916e8be3))
 
 
