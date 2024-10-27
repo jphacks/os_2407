@@ -1,6 +1,5 @@
 # Eventpix
-
-[![IMAGE ALT TEXT HERE](https://jphacks.com/wp-content/uploads/2024/07/JPHACKS2024_ogp.jpg)](https://www.youtube.com/watch?v=DZXUkEj-CSI)
+<img width="1005" alt="スクリーンショット 2024-10-27 14 12 03" src="https://github.com/user-attachments/assets/70832d88-ab6a-4441-bb37-db8872d640e9">
 
 > [!IMPORTANT]
 > ### 審査員の方へ
@@ -43,6 +42,7 @@
 * 
 * 
 
+[![IMAGE ALT TEXT HERE](https://jphacks.com/wp-content/uploads/2024/07/JPHACKS2024_ogp.jpg)](https://www.youtube.com/watch?v=DZXUkEj-CSI)
 ### 独自技術
 #### ハッカソンで開発した独自機能・技術
 * 独自で開発したものの内容をこちらに記載してください
