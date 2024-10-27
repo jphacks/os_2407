@@ -1,6 +1,15 @@
-# サンプル（プロダクト名）
+# Eventpix
 
 [![IMAGE ALT TEXT HERE](https://jphacks.com/wp-content/uploads/2024/07/JPHACKS2024_ogp.jpg)](https://www.youtube.com/watch?v=DZXUkEj-CSI)
+
+> [!IMPORTANT]
+> ### 審査員の方へ
+> 複数のリポジトリで事前開発を進めていた都合上，本リポジトリに各リポジトリの情報を全てコピーすることはできませんでした．\
+> 本リポジトリには，ソースコードのみをコピーしてアップロードしたため，
+> コミット履歴等開発に関するデータは以下のリポジトリをそれぞれ参照いただきますよう，よろしくお願いいたします．
+>
+> モバイルアプリ用リポジトリ (本リポジトリ `/mobile` ディレクトリ内)　[NAIST-Eventpix/eventpix_mobile](https://github.com/NAIST-Eventpix/eventpix_mobile)  \
+> APIサーバ用リポジトリ (本リポジトリ `/api` ディレクトリ内)　[NAIST-Eventpix/eventpix_api](https://github.com/NAIST-Eventpix/eventpix_api)
 
 ## 製品概要
 ### 背景(製品開発のきっかけ、課題等）
