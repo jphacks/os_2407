@@ -49,12 +49,13 @@ https://youtu.be/q0lc5Si2gBY
 
 ## 開発技術
 ### 活用した技術
+
+<img width="1996" alt="image" src="https://github.com/user-attachments/assets/bdb839de-a01e-4e7b-8647-a59b5b80aaa0">
+
 #### API・データ
 * ChatGPT API
 
 #### フレームワーク・ライブラリ・モジュール
-
-<img width="1996" alt="image" src="https://github.com/user-attachments/assets/bdb839de-a01e-4e7b-8647-a59b5b80aaa0">
 
 * モバイルアプリ (ユーザが操作する部分)
   * Flutter
