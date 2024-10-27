@@ -180,13 +180,13 @@ AIが自動で写真から予定情報を抽出します．
     * 編集した予定情報を反映させるための処理を実装 ([`/mobile/lib/pages/page_result.dart`](https://github.com/NAIST-Eventpix/eventpix_mobile/blob/main/lib/pages/page_result.dart))
     * デフォルトのカレンダーに登録するための処理を実装 ([`/mobile/lib/pages/page_result.dart`](https://github.com/NAIST-Eventpix/eventpix_mobile/blob/main/lib/pages/page_result.dart))
   * その他実装
-    * アプリアイコンの長押し時に表示されるクイックアクションに「カメラで撮る」という項目を追加し，すぐに撮影画面を起動できる機能を実装 ([473991a](https://github.com/NAIST-Eventpix/eventpix_mobile/commit/473991af2a2355fe0f5782b792d67b0a916e8be3))
-    * Googleカレンダーに自動で反映させる関数を実装
+    * アプリアイコンの長押し時に表示されるクイックアクションに「カメラで撮る」という項目を追加し，すぐに撮影画面を起動できる機能を実装 ([0023e87](https://github.com/NAIST-Eventpix/eventpix_mobile/commit/0023e87cbdf5557e9adbcef7426c8c49f555db16))
+    * Googleカレンダーに自動で反映させる関数を実装 ([`/mobile/lib/google_calendar_api.dart`](https://github.com/NAIST-Eventpix/eventpix_mobile/blob/main/lib/google_calendar_api.dart))
 * APIサーバ
   * 予測部分の性能改善（プロンプトの改善）
-    * 年度情報が抽出できないとき，直近の年度になるように日程情報を更新
-    * REST API でやり取りするためのJSON形式をモバイルアプリと統一
-  * JSONをicsファイル (カレンダー情報を持つファイル) 形式に変更するAPIの作成
+    * 年度情報が抽出できないとき，直近の年度になるように日程情報を更新 ([aead355](https://github.com/NAIST-Eventpix/eventpix_api/commit/aead355264f7361218b9e6bcb67b6cb5d7b56173))
+    * REST API でやり取りするためのJSON形式をモバイルアプリと統一 ([071db3d](https://github.com/NAIST-Eventpix/eventpix_api/commit/071db3d00136add5a097eef19402b711336c5f65))
+  * JSONをicsファイル (カレンダー情報を持つファイル) 形式に変更するAPIの作成 ([3aff468](https://github.com/NAIST-Eventpix/eventpix_api/commit/3aff4685c20a0767e943663a05bd5aafebddcf84))
   * ソースコードのリファクタリング，リント，フォーマット等の性能改善
 
 ### 特にこだわった部分
