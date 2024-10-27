@@ -84,7 +84,7 @@ AIが自動で写真から予定情報を抽出します．
 
 ## デモ動画
 
-下の画像をクリックすると，YouTubeへ遷移します．
+↓下の画像をクリックすると，YouTubeへ遷移します．
 もしくは，[こちらから→https://www.youtube.com/watch?v=q0lc5Si2gBY](https://www.youtube.com/watch?v=q0lc5Si2gBY)
 
 [![Eventpix Demo Video](https://img.youtube.com/vi/q0lc5Si2gBY/0.jpg)](https://www.youtube.com/watch?v=q0lc5Si2gBY)
@@ -150,8 +150,17 @@ AIが自動で写真から予定情報を抽出します．
 * iPhone (iOS)
 * Android
 
+<br/>
+<br/>
+
 ## 独自技術
+
+### 事前開発
+
+* モバイルアプリ
+* APIサーバ
 ### ハッカソンで開発した独自機能・技術
 * アプリ長押し時に表示されるクイックアクションに「カメラで撮る」という項目を追加し，すぐに撮影画面を起動できるようにしました ([473991a](https://github.com/NAIST-Eventpix/eventpix_mobile/commit/473991af2a2355fe0f5782b792d67b0a916e8be3))
+
 
 [![IMAGE ALT TEXT HERE](https://jphacks.com/wp-content/uploads/2024/07/JPHACKS2024_ogp.jpg)](https://www.youtube.com/watch?v=DZXUkEj-CSI)
