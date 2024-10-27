@@ -1,0 +1,26 @@
+name: CI
+on: pull_request
+
+jobs:
+  backend:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install Rye
+        run: |
+          curl -sSf https://rye.astral.sh/get | bash
+          echo "$HOME/.rye/shims" >> $GITHUB_PATH
+        env:
+          RYE_INSTALL_OPTION: "--yes"
+
+      - name: Install dependencies
+        run: |
+          rye sync --all-features
+
+      - name: Run ruff
+        run: |
+          rye run ruff check .
+
+      - name: Run mypy
+        run: |
+          rye run mypy .

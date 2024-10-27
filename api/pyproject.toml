@@ -1,0 +1,39 @@
+[project]
+name = "eventpix-api"
+version = "0.1.0"
+description = "Add your description here"
+authors = [{ name = "take0x" }]
+dependencies = [
+    "fastapi[all]>=0.115.2",
+    "pillow>=11.0.0",
+    "openai>=1.52.2",
+    "icalendar>=6.0.1",
+]
+readme = "README.md"
+requires-python = ">= 3.8"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.rye]
+managed = true
+dev-dependencies = ["mypy>=1.12.1", "ruff>=0.7.0"]
+
+[tool.rye.scripts]
+server = { cmd = "uvicorn eventpix_api.main:app --host 0.0.0.0 --port 8080 --reload" }
+
+[tool.hatch.metadata]
+allow-direct-references = true
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/eventpix_api"]
+
+[tool.mypy]
+strict = true
+
+[tool.ruff.lint]
+extend-select = [
+    "I",  # isort
+    "UP", # pyupgrade
+]
