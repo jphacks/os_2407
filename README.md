@@ -14,8 +14,10 @@
 ### 背景(製品開発のきっかけ、課題等）
 ### 製品説明（具体的な製品の説明）
 
+<img width="1296" alt="image" src="https://github.com/user-attachments/assets/8e3f044f-168c-4863-b57e-298eb1c52b6b">
+
 ### デモ動画
-<a href="https://youtu.be/q0lc5Si2gBY" target="_blank">デモ動画はこちら</a>
+https://youtu.be/q0lc5Si2gBY
 
 ### 特長
 #### 1. 特長1
