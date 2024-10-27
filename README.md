@@ -168,17 +168,17 @@ AIが自動で写真から予定情報を抽出します．
     * APIサーバのインフラ整備
     * 予測部分の最小部分を作成
 
-### ハッカソンで開発した機能
+### ハッカソンで開発した機能 (一部抜粋)
 
 * モバイルアプリ
-  * UI画面の実装
+  * UI画面の実装 ([`/mobile/lib/pages/page_result.dart`](https://github.com/NAIST-Eventpix/eventpix_mobile/blob/main/lib/pages/page_result.dart)) ([`/mobile/lib/pages/page_top.dart`](https://github.com/NAIST-Eventpix/eventpix_mobile/blob/main/lib/pages/page_top.dart))
     * 抽出した結果を一覧表示する結果ページの作成
     * 予定を手入力で編集できる編集のダイアログ画面の作成
     * 登録するカレンダーを選択するダイアログ画面の作成
   * 処理の追加
-    * APIサーバから帰ってきた結果をUIのウィジェットに変換する処理の実装
-    * 編集した予定情報を反映させるための処理を実装
-    * デフォルトのカレンダーに登録するための処理を実装
+    * APIサーバから帰ってきた結果をUIのウィジェットに変換する処理の実装 ([`/mobile/lib/pages/page_top.dart`](https://github.com/NAIST-Eventpix/eventpix_mobile/blob/main/lib/pages/page_top.dart))
+    * 編集した予定情報を反映させるための処理を実装 ([`/mobile/lib/pages/page_result.dart`](https://github.com/NAIST-Eventpix/eventpix_mobile/blob/main/lib/pages/page_result.dart))
+    * デフォルトのカレンダーに登録するための処理を実装 ([`/mobile/lib/pages/page_result.dart`](https://github.com/NAIST-Eventpix/eventpix_mobile/blob/main/lib/pages/page_result.dart))
   * その他実装
     * アプリアイコンの長押し時に表示されるクイックアクションに「カメラで撮る」という項目を追加し，すぐに撮影画面を起動できる機能を実装 ([473991a](https://github.com/NAIST-Eventpix/eventpix_mobile/commit/473991af2a2355fe0f5782b792d67b0a916e8be3))
     * Googleカレンダーに自動で反映させる関数を実装
