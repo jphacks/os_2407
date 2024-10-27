@@ -26,7 +26,7 @@
 <img width="1296" alt="image" src="https://github.com/user-attachments/assets/8e3f044f-168c-4863-b57e-298eb1c52b6b">
 
 ### デモ動画
-https://youtu.be/q0lc5Si2gBY
+[![Eventpix Demo Video](https://img.youtube.com/vi/q0lc5Si2gBY/0.jpg)](https://www.youtube.com/watch?v=q0lc5Si2gBY)
 
 ### 特長
 #### 1. AIが写真から予定を自動抽出
