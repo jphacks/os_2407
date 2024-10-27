@@ -16,7 +16,7 @@
 ### 製品説明（具体的な製品の説明）
 
 ### デモ動画
-https://youtu.be/q0lc5Si2gBY
+<a href="https://youtu.be/q0lc5Si2gBY" target="_blank">デモ動画はこちら</a>
 
 ### 特長
 #### 1. 特長1
