@@ -33,16 +33,24 @@ https://youtu.be/q0lc5Si2gBY
 ## 開発技術
 ### 活用した技術
 #### API・データ
-* 
-* 
+* ChatGPT API
 
 #### フレームワーク・ライブラリ・モジュール
-* 
-* 
+* モバイルアプリ
+  * Flutter
+  * Dart
+* APIサーバ
+  * FastAPI
+  * Python
+  * Microsoft Azure
+  * GitHub Actions
+  * Docker
 
 #### デバイス
-* 
-* 
+
+利用可能デバイス
+* iPhone (iOS)
+* Android
 
 [![IMAGE ALT TEXT HERE](https://jphacks.com/wp-content/uploads/2024/07/JPHACKS2024_ogp.jpg)](https://www.youtube.com/watch?v=DZXUkEj-CSI)
 ### 独自技術
