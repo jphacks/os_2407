@@ -1,0 +1,6 @@
+[submodule "mobile"]
+	path = mobile
+	url = git@github.com:NAIST-Eventpix/eventpix_mobile
+[submodule "api"]
+	path = api
+	url = git@github.com:NAIST-Eventpix/eventpix_api

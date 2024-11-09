@@ -1,7 +1,0 @@
-{
-    "summary": "Sample Event",
-    "description": "This is a sample event.",
-    "dtstart": "2024-10-01T10:00",
-    "dtend": "2024-10-01T12:00",
-    "location": "123 Main St, Anytown, USA"
-}
